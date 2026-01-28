@@ -8,7 +8,7 @@ from homeassistant.core import HomeAssistant, ServiceCall
 from homeassistant.helpers import config_validation as cv
 
 from .const import DOMAIN, SERVICE_SYNC_NOW
-from .coordinator import WWForecasterCoordinator
+from .weather import WWForecasterCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 
